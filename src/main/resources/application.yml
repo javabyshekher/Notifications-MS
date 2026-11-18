@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: Notifications-MS
+  config:
+    import: configserver:http://localhost:1111
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/ecom
+#    username: root
+#    password: root
+#
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#
+#  mail:
+#    host: smtp.gmail.com
+#    port: 587
+#    username: javabyshekher@gmail.com
+#    password: utac wwhm ytlv mkeh
+#    properties:
+#      mail:
+#        smtp:
+#          auth: true
+#          starttls:
+#            enable: true
+server:
+  port: 7075
